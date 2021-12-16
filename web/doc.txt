@@ -1,0 +1,43 @@
+##### WEB #####
+=== všichni uživatelé ===
+  - index.php - úvodní stránka
+  - knowledge_base/index.php -> view.php - stránka pro prohlížení příspěvků v databázi
+  - view.php - prohlížení si databáze
+
+  - logout.php - modul odhlášení se
+  - login.php - modul přihlášení se
+
+=== admin ===
+- editor.php - editace databáze
+- galery.php - galerie obrázků
+- upload_image.php - nahrávání obrázků
+- delete.php - smazání příspěvku
+
+##### SDÍLENÉ SOUBORY #####
+=== php ===
+  - db/db.php - Modul pro připojení k databázi
+  - sent/sent.php - Modul pro odeslání informací
+  - form/form.php - Modul formuláře
+  - knowledge_base/delete.php - potvrzení mazání příspěvků
+  - knowledge_base/publicize.php - publikuje a stahuje články
+  - knowledge_base/delete_real.php - maže články
+  - knowledge_base/save.php - ukládá články
+
+=== styly ===
+  - styles/style.css - všeobecné styly v rámci programu
+
+=== script ===
+  - scripts/script.js - skript pro formulář
+
+=== data ===
+  - db/linux-nggcv - připojení k databázi linux-nggcv na serveru localhost
+
+=== složky ===
+  - db - Složka obsahující soubory pro připojení se k databázi
+  - form - Složka obsahující soubory související s kontaktním formulářem
+  - icons/ - Obrázky používané ve stránkách
+  - images/ - Obrázky vložené uživateli
+  - sent - Složka obsahující soubory používané k zápisu, validaci a odesílání dat
+  - lib/phpMailer - knihovny phpMailer
+  - styles - Složka obsahující .css soubory
+  - scripts - Složka obsahující .js soubory

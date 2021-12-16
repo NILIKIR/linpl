@@ -1,0 +1,180 @@
+/*
+ * souhrné css styly
+ * Projekt: LINPL
+ * Vytvořil: Janek
+ */
+button{
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  margin-left: 15px;
+}
+input.check_button{/*input třídy check_button*/
+  visibility:hidden;
+}
+input:checked + button{/*První button po checklém inputu*/
+  background-color: lightgreen;
+}
+.half{
+  width:  433px;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 20px;
+  position: absolute;
+}
+.jump, .next, #uploading_info, #thanks, #two, #phone, #email1, #phone1, #time, #offer, #submit, #captcha, #souhlasy, h5, #back_to_changes{
+  display: none;
+}
+#form{
+  width: 800px;
+  height: 980px;
+  top:0;
+  left:0;
+  right:0;
+  display:inline;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+#form_span{
+  margin-left: 485px;
+  margin-right: 0;
+}
+#knowledgebase_span{
+  margin-right: 485px;
+  margin-left: 0;
+}
+html {
+    overflow-y: scroll;
+}
+#to_form h1{
+  writing-mode:vertical-lr;
+}
+#to_form, #knowledgebase_anotation{
+  display:none;
+}
+#administration{
+position:absolute;
+padding:0;
+margin:0;
+right:20px;
+}
+#logout{
+position:absolute;
+padding:0;
+margin:0;
+top: 10px;
+right:20px;
+}
+.contribution{
+  width: 918px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu{
+  display:inline-flex;
+  width: 918px;
+  justify-content: space-between;
+}
+a{
+  text-decoration-line: none;
+}
+.b{
+  display:inline-flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.image{
+  border: 1px solid black;
+  border-radius: 15px;
+  width:72px;
+}
+.upload_image{
+    border: 1px solid black;
+    border-radius: 15px;
+    width:100px;
+}
+#delete{
+  width:200px
+}
+section{
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin:0;
+}
+.g-recaptcha{
+  margin: 1.5em;
+  display: inline-block;
+}
+h2, h5{
+  font-size: 1em;
+  font-weight: normal;
+}
+h4{
+  height: 16px;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+form{
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  max-width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.obraz {
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  height: 125px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.odpoved{
+  position: relative;
+  font-size: 1em;
+  margin-bottom: 15px;
+
+}
+.name, .hlava{
+  width: 45%;
+  position:relative;
+  display: inline-table;
+  padding: 0;
+  top:0;
+  bottom:0;
+}
+.name{
+  text-align: right;
+  padding: 0;
+  margin: 25px;
+}
+#back_to_changes, #validate, #submit{
+  height: 5em;
+  width: 15em;
+  border-radius: 1em;
+}
+#thanks, #uploading_info {
+  text-align: center;
+}

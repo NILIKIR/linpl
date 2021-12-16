@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1000" height="1000" viewBox="0, 0, 1000, 1000">
+  <g id="Background">
+    <rect x="0" y="0" width="1000" height="1000" fill="#FFFFFF"/>
+  </g>
+  <g id="Layer_1">
+    <text transform="matrix(1, 0, 0, 1, 500, 500)">
+      <tspan x="-312.996" y="-72.5" font-family="AcademyEngravedLetPlain" font-size="144" fill="#000000">VYBRAT </tspan>
+      <tspan x="-305.016" y="132.5" font-family="AcademyEngravedLetPlain" font-size="144" fill="#000000">SOUBOR</tspan>
+    </text>
+  </g>
+</svg>
